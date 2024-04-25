@@ -1,0 +1,138 @@
+/* CSS for Video Container */
+#video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#logo {
+  position: absolute;
+  top: 20px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+#welcome-sign {
+  position: absolute;
+  top: 50%; /* Adjust as needed */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: white;
+  z-index: 1;
+}
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  position: relative; /* Add this line */
+  z-index: 2; /* Add this line */
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card1 button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card1a button {
+  border: none;
+  background-color: #FFF;
+}
+
+.card1 button:hover {
+  opacity: 0.7;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  text-align: center;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.topnav a:hover {
+  background-color: #555;
+}
+
+#welcome {
+  position: absolute;
+  left: -200px; /* Initial position off the screen */
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 72px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: left 1s ease; /* Transition property for smooth movement */
+}
+.topnav {
+  background-color: #000; /* Change background color to black */
+  overflow: hidden;
+  text-align: center;
+}
+
+.topnav a {
+  display: inline-block; /* Change from float to inline-block for better alignment */
+  color: #00f; /* Change text color to blue */
+  padding: 14px 20px; /* Increase padding for better button size */
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.topnav a:hover {
+  background-color: #444; /* Darker shade of black for hover effect */
+}
+
+.topnav {
+  background-color: #000; /* Black background */
+  overflow: hidden;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif; /* Helvetica font */
+}
+
+.topnav a {
+  display: inline-block;
+  color: #00f; /* Blue text color */
+  padding: 14px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.topnav a:hover {
+  background-color: #444; /* Darker shade of black for hover effect */
+}
+
+
